@@ -32,11 +32,11 @@ st.title("Handling URL")
 
 url =  "https://api.openai.com/v1/files"   # return list of files
 
-#api_key = "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"
+
 res = requests.get(url, headers = {
               "Authorization": "Bearer " + api_key})
 
-print(res[0])
+print(res)
 
 #all_files = list(client.beta.vector_stores.files.list(vector_store_id= any))
 

@@ -41,15 +41,15 @@ with st.sidebar:
     option = st.selectbox("select Option", options = ["전자레인지메뉴얼", "100년후독서"])
     if option == "전자레인지메뉴얼":
         st.subheader("전자레인지메뉴얼")
-        assistant_id = "asst_C6uH4KBnddfCutZkHIbJysIy"
-        file_id = "file-2xQjAG4DwBypAEnO3SNQfdiE"
+        assistant_id = ""
+        file_id = ""
         instruction = "당신은 충실한 서비스 챗봇입니다. Upload 된 전자 레인지 메뉴얼을 참조하여 소비자 질문에 충실하게 메뉴얼 내에서 응답해 주세요"
         prompt = ""
 
     if option == "100년후독서":
         st.subheader("100년후독서")
-        assistant_id = "asst_8xs6p9Yz08FvUluQINZNCYK5"
-        file_id = "file-EW6IHwzwCm4j8ndS4sNoEOmV"
+        assistant_id = ""
+        file_id = ""
         instruction = "당신은 훌륭한 독서가이며 미래 정치 경제학자입니다. 100년 후 Document의 내용으로 부터 chatbot 으로 주어지는 질문에 상세히 대답해 주세요"
         prompt= ""
     #import tempfile
