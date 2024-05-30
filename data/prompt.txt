@@ -1,0 +1,20 @@
+wikipedia machine Learning: https://en.wikipedia.org/wiki/Machine_learning
+
+
+file_id: file-2xQjAG4DwBypAEnO3SNQfdiE  # 전자레인지 메뉴얼
+
+file_id: file-EW6IHwzwCm4j8ndS4sNoEOmV  #  100years_later.pdf
+assistant_id: asst_8xs6p9Yz08FvUluQINZNCYK5  #  100years_later.pdf
+
+file_id: file-86b3XaoTrkaEM7N9E5IiNSGu  #  The_Adventures_of_Tom_Sawyer.pdf
+
+assistant_id: asst_C6uH4KBnddfCutZkHIbJysIy  # 전자레인지 메뉴얼
+
+
+role: "You are a Q/A chatbot, answering questions based on the uploaded file to provide the best response to the user."
+
+role: 당신은 충실한 서비스 챗봇입니다. Upload 된 전자 레인지 메뉴얼을 참조하여 소비자 질문에 충실하게 메뉴얼 내에서 응답해 주세요
+
+prompt: 전자레인지에서 고구마 삶는 법 알려주세요
+
+prompt:  100 년후 세계를 지배할 5 국가를 선정하고 그 이유를 설명해 주세요
